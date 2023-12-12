@@ -1,0 +1,53 @@
+body {
+    font-family: 'Nunito', sans-serif;
+    background-color: #f7d2dc;
+    margin: 0;
+    padding: 0;
+}
+
+#main-navbar {
+    text-transform: uppercase;
+    font-size: 1.8rem;
+    font-weight: 200;
+}
+
+#main-navbar .navbar-brand {
+    color: #ea1c2c;
+    font-size: 1.8rem;
+}
+
+#main-navbar .nav-link {
+    color: white;
+}
+
+/* how to make the navbar opaque while scrolling??? */
+
+#main-navbar .nav-link:hover {
+    color: #ea1c2c !important;
+}
+
+.special {
+    text-transform: uppercase;
+    font-size: 3.2rem;
+    font-weight: 300;
+}
+
+.text-white {
+    color: white !important;
+}
+
+.text-red {
+    color: #ea1c2c !important;
+}
+
+.description {
+    line-height: 2.75rem;
+    font-size: 1.25rem;
+    font-weight: 200;
+}
+
+@media (max-width: 1200px) {
+    .special {
+        font-size: 2.5rem;
+    }
+}
