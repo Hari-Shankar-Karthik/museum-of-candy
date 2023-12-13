@@ -41,13 +41,20 @@ body {
 }
 
 .description {
-    line-height: 2.75rem;
-    font-size: 1.25rem;
+    font-size: 1rem;
     font-weight: 200;
+    color: #f498b8;
 }
 
 @media (max-width: 1200px) {
     .special {
         font-size: 2.5rem;
+    }
+}
+
+@media (min-width: 768px) {
+    .description {
+        font-size: 1.25rem;
+        line-height: 2.75rem;
     }
 }
